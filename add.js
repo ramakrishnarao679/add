@@ -6,4 +6,8 @@ let number = [1, 2, 3, 4, 5];
 // }
 // console.log(sum);
 
-let sum=0;
+let sum=0; 
+for(let i of number){
+    sum = sum+i;
+}
+console.log(sum)
